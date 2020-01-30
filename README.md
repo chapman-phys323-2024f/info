@@ -1,6 +1,6 @@
 # PHYS220 / MATH220 Course Information
 
- - [Course Syllabus](phys220-syllabus-2019f.pdf)
+ - [Course Syllabus](phys220-syllabus-2020s.pdf)
  
 Welcome to the `PHYS220/MATH220` course information `README` file!  Refer to this information throughout the semester for helpful tutorials, references, and tips.  Please read the [Getting Started](GettingStarted.md) guide for orientation, including how to create accounts and manage the homework/classwork work flow.
 
@@ -16,7 +16,7 @@ Welcome to the `PHYS220/MATH220` course information `README` file!  Refer to thi
  Official python distribution suitable for scientfic computing and data science. Get this to complete both classwork and homework on your own laptop.
  - [Git for Windows](https://git-scm.com/download/win)<br/>
  If you use Windows, you also need this to do course work on your own laptop.
- - [Slack (`scststudents`)](https://scststudents.slack.com) (Channel `#phys220-2019f`) <br/>
+ - [Slack (`scststudents`)](https://scststudents.slack.com) (Channel `#phys220-2020s`) <br/>
  Professional communication tool - industry standard chat application that we will use for the course.
  - [Overleaf.com](https://www.overleaf.com) <br/>
  Online collaborative LaTeX editor with many convenient templates.
