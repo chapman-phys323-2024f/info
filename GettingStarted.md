@@ -17,22 +17,17 @@ Being familiar with modern computational tools and techniques will give you an e
 
 ## Account Setup
 
-Our class will be centered around two cloud-based pieces of technology: 
+Our class will be centered around a cloud-based piece of technology: 
  1. [GitHub](https://github.com), a central hub for sharing code that has become standard in the open-source community. 
- 1. [Slack](https://scststudents.slack.com), a professional communication platform now standard in industry.
 
- - **Task 1:** Use your Chapman email to create a GitHub account and a Slack account. Use your full, real name when making the accounts so that you can be easily found. The instructor should have invited you to the course GitHub Organization and the Slack organization using your student email, so look for the invite emails to accelerate account creation.
- - **Task 2:** Join the Slack chat channel for the course. It should have the form `#phys220-YYYYs` where `YYYY` is the year and `s` is either `s` for spring or `f` for fall semester. Note that there are a variety of other Slack channels of potential interest, such as `#physics` or `#math` or `#jobopportunities`, etc.
-
-Our class will also teach you how to use your own personal computer as a scientific workstation. To do this, you will need to set up three more pieces of software on your personal computer:
+ - **Task 1:** Use your Chapman email to create a GitHub account, if you don't already have one linked to your Chapman email. Use your full, real name when making the accounts so that you can be easily found. The instructor should have invited you to the course GitHub Organization using your student email, so look for the invite emails to accelerate account creation.
+ 
+Our class will also teach you how to use your own personal computer as a scientific workstation. To do this, you will need to set up two more pieces of software on your personal computer:
  1. [Anaconda Python](https://www.anaconda.com/distribution/), a distribution of python together with a useful collection of scientific and data-processing packages.
  1. [Git](https://git-scm.com/download), a distributed change control for managing code and sharing it with other programmers.
- 1. [Atom](https://atom.io/), a free and extensible code editor that is cross-platform, produced by the same team as GitHub.
 
- - **Task 3:** Go to the Anaconda site linked above and download the Anaconda distribution for Python 3 (i.e., **not** Python 2). Make sure you choose the correct operating system (Windows, Mac, or Linux). Launch the installation and follow the instructions. (When it asks questions, pick the recommended options. Do not install PyCharm as we will use the Atom editor instead.)
- - **Task 4:** Go to the Git site linked above and download the Git installer (for Windows or Mac - it's likely already installed if you are using Linux). Run the installation and follow the instructions. If it asks, be sure to enable git integration with your file browser.
- - **Task 5:** Go to the Atom site linked above and download the Atom installer (for Windows, Mac, or Linux). Launch the installation and follow the instructions.
- - **Task 6:** Configure Atom for later use. Open the Settings panel (via the File menu). Click on the Install tab. In the "Search packages" field type *script* and hit enter. When the **script** package appears beneath, click on *Install* and wait until it completes. Repeat this procedure for the packages *termination*, *linter-ui-default*, and *linter-flake8*. (When it asks you if you would like to install dependencies, click yes.) After all is completed, close Atom.
+ - **Task 2:** Go to the Anaconda site linked above and download the Anaconda distribution for Python 3 (i.e., **not** Python 2). Make sure you choose the correct operating system (Windows, Mac, or Linux). Launch the installation and follow the instructions. (When it asks questions, pick the recommended options.)
+ - **Task 3:** Go to the Git site linked above and download the Git installer (for Windows or Mac - it's likely already installed if you are using Linux). Run the installation and follow the instructions. If it asks, be sure to enable git integration with your file browser.
  
 ## Setting up the Terminal (a.k.a. Bash Shell) and SSH
 
@@ -109,22 +104,22 @@ The important statement to find here is `You've successfully authenticated`. Thi
 
 As a check for the connection to GitHub and a demonstration that it works, using the Linux Terminal let's **m**a**k**e a new **dir**ectory to store `git` repositories using `mkdir`.
 ```
- ~$ mkdir ~/PHYS220/
+ ~$ mkdir ~/PHYS323/
  ~$
 ```
 Now **c**hange into that **d**irectory using `cd` and **l**i**s**t its contents with `ls`.
 ```
- ~$ cd PHYS220
- ~/PHYS220$ ls
- ~/PHYS220$
+ ~$ cd PHYS323
+ ~/PHYS323$ ls
+ ~/PHYS323$
 ```
 Since the directory is initially empty, nothing interesting should be listed, so the prompt returns immediately.
 
 Go to your GitHub account in a different tab/window and find the information repository main page. In the upper right corner, you should see a green "Clone or Download" button. Click the button and it will open up a sub-panel with a clone link. There are two possible links, HTTPS or SSH. Make sure you choose SSH. Click on the copy button to copy the repository clone link to your clipboard.
 
-Return to your terminal and use `git clone` to clone the information repository to your directory "PHYS220". It should look something like:
+Return to your terminal and use `git clone` to clone the information repository to your directory "PHYS323". It should look something like:
 ```
- ~/PHYS220$ git clone git@github.com:chapman-phys220-2019f/info.git
+ ~/PHYS323$ git clone git@github.com:chapman-phys323-2024f/info.git
 Cloning into 'info'...
 remote: Counting objects: 20, done.
 remote: Compressing objects: 100% (19/19), done.
@@ -132,17 +127,11 @@ remote: Total 20 (delta 6), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (20/20), 131.57 KiB | 0 bytes/s, done.
 Resolving deltas: 100% (6/6), done.
 Checking connectivity... done.
-~/PHYS220$ ls
+~/PHYS323$ ls
 info
-~/PHYS220$
+~/PHYS323$
 ``` 
 Now the list command `ls` shows that there is a new directory `info` that has been cloned from GitHub. You can confirm that it exists outside the terminal by going to your usual File Manager and browsing around. The cloned files are now local inside your computer and can be viewed (or edited) directly.
 
 The above procedure will be how you clone all classwork and homework repositories for the class. For more information about how GitHub works, see the [Git and GitHub Overview Slides](http://slides.com/profdressel/git-overview). Chapters 15 and 16 of your textbook also give a detailed overview of how to use both `git` and GitHub productively.
 
-To conveniently browse your newly cloned `info` repository, go into the `info` directory and launch the Atom editor in that directory:
-```
-~/PHYS220$ cd info
-~/PHYS220/info$ atom .` 
-```
-The `.` character means "current directory" and tells Atom to open up the entire current directory as a Project. We will go over the various panes of the editor in class so you can be familiarized with how Atom works with your files, as well as Git and GitHub.
