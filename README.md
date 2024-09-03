@@ -1,23 +1,19 @@
-# PHYS220 / MATH220 Course Information
+# PHYS323 Course Information
 
- - [Course Syllabus](phys220-syllabus-2020s.pdf)
- 
-Welcome to the `PHYS220/MATH220` course information `README` file!  Refer to this information throughout the semester for helpful tutorials, references, and tips.  Please read the [Getting Started](GettingStarted.md) guide for orientation, including how to create accounts and manage the homework/classwork work flow.
+Welcome to the `PHYS323` course information `README` file!  Refer to this information throughout the semester for helpful tutorials, references, and tips.  Please read the [Getting Started](GettingStarted.md) guide for orientation, including how to create accounts and manage the homework/classwork work flow.
 
 ## Getting Started
 
  - [Getting Started Guide : Click here first.](GettingStarted.md)
  - [Textbook : Effective Computation in Physics](http://physics.codes) <br/>
- Official course textbook, to be supplemented with free online resources below. Be sure to read Chapters 1, 15, and 16 first, as they cover basic usage of bash, git, and GitHub.
+ Reference course textbook, to be supplemented with free online resources below. In particular, Chapters 1, 15, and 16 cover the basic usage of bash, git, and GitHub, so may be helpful as a resource.
 
 ## Primary Course Links (Try here first)
 
  - [Anaconda Python](https://www.anaconda.com/download) <br/>
  Official python distribution suitable for scientfic computing and data science. Get this to complete both classwork and homework on your own laptop.
  - [Git for Windows](https://git-scm.com/download/win)<br/>
- If you use Windows, you also need this to do course work on your own laptop.
- - [Slack (`scststudents`)](https://scststudents.slack.com) (Channel `#phys220-2020s`) <br/>
- Professional communication tool - industry standard chat application that we will use for the course.
+ If you use Windows, you also need this to do course work on your own laptop. If you use Linux or Mac, you should be able to install everything natively and use Terminal.
  - [Overleaf.com](https://www.overleaf.com) <br/>
  Online collaborative LaTeX editor with many convenient templates.
  
