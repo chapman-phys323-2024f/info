@@ -60,7 +60,7 @@ import numpy as np
 import pandas as pd
 import sympy as sp
 import matplotlib.pyplot as plt
-import seaborn as sb
+import seaborn as sns
 import numba as nb
 # The above modules are commonly used for science. The "as blah"
 # specification nicknames a module "blah" so you can write less
